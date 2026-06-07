@@ -1,5 +1,7 @@
 # Mandelbrot Sandbox · WebGL2
 
+<img width="1916" height="942" alt="image" src="https://github.com/user-attachments/assets/1a9c1fe2-2232-4c4c-8f28-8b10c1eeb98f" />
+
 An interactive, GPU-accelerated Mandelbrot zoom sandbox. Dive into the fractal
 forever, push the generation parameters as far as your hardware allows, and
 repaint the whole set with your own palette.
@@ -8,6 +10,8 @@ Pan by dragging, zoom with the scroll wheel, double click to recenter, or flip
 on **Auto zoom** for an endless dive. The escape-time iteration runs in
 emulated double precision (double-single) inside the shader, so the zoom stays
 sharp far deeper than plain 32-bit float would allow.
+
+[Try it out here!](https://fernfunction.github.io/webgl-mandelbrot/)
 
 ## Commands
 
